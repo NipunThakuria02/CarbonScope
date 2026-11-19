@@ -1,0 +1,50 @@
+{
+  "source_name": "Carbon Monitor",
+  "source_url": "https://datas.carbonmonitor.org/API/downloadFullDataset.php?source=carbon_global",
+  "website": "https://carbonmonitor.org",
+  "citation": "Liu et al. (2020), Carbon Monitor, Scientific Data, doi:10.1038/s41597-020-00708-7",
+  "downloaded_at": "2026-11-05T03:41:12.114353+00:00",
+  "source_sha256": "4988bbc4877a909d262790cb67bd416e113620a5bee964b7d394626e7308fb54",
+  "clean_sha256": "3945515af2f2408c67f688710e7568b4e86426d710d4673720bc8290b3407471",
+  "raw_rows": 655200,
+  "empty_columns_removed": [
+    "Unnamed: 4"
+  ],
+  "invalid_rows_removed": 0,
+  "aggregate_rows_removed": 50400,
+  "duplicates": 0,
+  "incomplete_sector_months_removed": 0,
+  "incomplete_country_months_removed": 0,
+  "excluded_countries": [],
+  "countries": 36,
+  "monthly_rows": 3312,
+  "daily_rows": 604800,
+  "months": 92,
+  "start_date": "2019-01-01",
+  "end_date": "2026-08-31",
+  "missing_cells": 0,
+  "imputed_cells": 0,
+  "unit": "million tonnes CO\u2082 (Mt)",
+  "target": "Sum of the six reported sectors, including allocated international aviation; not a complete national GHG inventory.",
+  "source_kind": "Published activity-based emissions estimates, not direct sensor measurements.",
+  "cleaning": [
+    "Remove entirely empty columns and aggregate regions.",
+    "Validate dates, finite non-negative emissions and unique keys.",
+    "Sum daily emissions only for complete calendar months.",
+    "Keep countries with all six sectors and a continuous monthly history.",
+    "Preserve genuine zeros; no interpolation, zero-filling or synthetic observations."
+  ],
+  "daily_sha256": "8cd9a485e0cb8ea194b07e65fa74d0a04c639dd73cf4ec0b0ca602cbf8c615e7",
+  "provenance_status": "original_source_verified",
+  "provenance_note": "Daily and monthly exports are internally verified. Original source-byte authenticity is independently verifiable only when the original raw snapshot with the recorded SHA-256 is supplied.",
+  "quality_flags": 19,
+  "countries_with_flags": [
+    "Belgium",
+    "Brazil",
+    "China",
+    "France",
+    "India",
+    "Netherlands",
+    "Sweden"
+  ]
+}

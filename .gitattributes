@@ -1,0 +1,5 @@
+# Preserve the exact bytes used by the snapshot and model provenance checks.
+datasets/raw/carbon_monitor.csv -text
+data/*.csv -text
+artifacts/* -text
+ml/build.py -text

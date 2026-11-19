@@ -1,0 +1,9 @@
+{
+  "source_url": "https://datas.carbonmonitor.org/API/downloadFullDataset.php?source=carbon_global",
+  "retrieved_at_utc": "2026-11-05T03:34:27.927021+00:00",
+  "source_sha256": "4988bbc4877a909d262790cb67bd416e113620a5bee964b7d394626e7308fb54",
+  "size_bytes": 34501985,
+  "matches_previously_recorded_source_hash": true,
+  "original_source_file": "carbon_monitor.csv",
+  "note": "Audit downloaded_at is generated at cleaning time; this manifest records the recovery download timestamp. Source identity does not establish scientific correctness of every record."
+}

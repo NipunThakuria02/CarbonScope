@@ -1,0 +1,207 @@
+{
+  "status": "review_required",
+  "rule": "Sector >4x year-earlier value AND increase >=1 Mt; flags are review signals, not proof of error.",
+  "action": "Original values retained. Verify against original source, units and revisions before interpreting affected countries or publishing forecasts.",
+  "countries_with_flags": [
+    "Belgium",
+    "Brazil",
+    "China",
+    "France",
+    "India",
+    "Netherlands",
+    "Sweden"
+  ],
+  "flags": [
+    {
+      "country": "Belgium",
+      "month": "2026-01",
+      "feature": "power",
+      "value_mt": 1.9174249,
+      "previous_year_mt": 0.25746309,
+      "ratio": 7.447377796949458,
+      "status": "unresolved_source_review",
+      "reason": "Above 4x the same month one year earlier, with an increase of at least 1 Mt."
+    },
+    {
+      "country": "Brazil",
+      "month": "2020-04",
+      "feature": "residential",
+      "value_mt": 1.638372545,
+      "previous_year_mt": 0.197802152,
+      "ratio": 8.28288533989256,
+      "status": "unresolved_source_review",
+      "reason": "Above 4x the same month one year earlier, with an increase of at least 1 Mt."
+    },
+    {
+      "country": "Brazil",
+      "month": "2020-11",
+      "feature": "residential",
+      "value_mt": 1.462492954,
+      "previous_year_mt": 0.302747756,
+      "ratio": 4.830730946854649,
+      "status": "unresolved_source_review",
+      "reason": "Above 4x the same month one year earlier, with an increase of at least 1 Mt."
+    },
+    {
+      "country": "Brazil",
+      "month": "2026-01",
+      "feature": "residential",
+      "value_mt": 1.073488781,
+      "previous_year_mt": 0.00612989,
+      "ratio": 175.12366143601272,
+      "status": "unresolved_source_review",
+      "reason": "Above 4x the same month one year earlier, with an increase of at least 1 Mt."
+    },
+    {
+      "country": "China",
+      "month": "2023-04",
+      "feature": "domestic_aviation",
+      "value_mt": 6.967971,
+      "previous_year_mt": 1.5365986,
+      "ratio": 4.534672229949969,
+      "status": "unresolved_source_review",
+      "reason": "Above 4x the same month one year earlier, with an increase of at least 1 Mt."
+    },
+    {
+      "country": "France",
+      "month": "2021-04",
+      "feature": "power",
+      "value_mt": 2.510497,
+      "previous_year_mt": 0.4505532,
+      "ratio": 5.57203233713577,
+      "status": "unresolved_source_review",
+      "reason": "Above 4x the same month one year earlier, with an increase of at least 1 Mt."
+    },
+    {
+      "country": "India",
+      "month": "2021-04",
+      "feature": "domestic_aviation",
+      "value_mt": 1.3304694,
+      "previous_year_mt": 0.030995244,
+      "ratio": 42.9249532605712,
+      "status": "unresolved_source_review",
+      "reason": "Above 4x the same month one year earlier, with an increase of at least 1 Mt."
+    },
+    {
+      "country": "Netherlands",
+      "month": "2026-06",
+      "feature": "power",
+      "value_mt": 3.0201037,
+      "previous_year_mt": 0.6676664,
+      "ratio": 4.523372300897574,
+      "status": "unresolved_source_review",
+      "reason": "Above 4x the same month one year earlier, with an increase of at least 1 Mt."
+    },
+    {
+      "country": "Sweden",
+      "month": "2024-07",
+      "feature": "power",
+      "value_mt": 1.8030379,
+      "previous_year_mt": 0.31788577,
+      "ratio": 5.671967952513256,
+      "status": "unresolved_source_review",
+      "reason": "Above 4x the same month one year earlier, with an increase of at least 1 Mt."
+    },
+    {
+      "country": "Sweden",
+      "month": "2024-08",
+      "feature": "power",
+      "value_mt": 2.085583,
+      "previous_year_mt": 0.040665137,
+      "ratio": 51.286757007605814,
+      "status": "unresolved_source_review",
+      "reason": "Above 4x the same month one year earlier, with an increase of at least 1 Mt."
+    },
+    {
+      "country": "Sweden",
+      "month": "2024-09",
+      "feature": "power",
+      "value_mt": 2.3186089,
+      "previous_year_mt": 0.41942273,
+      "ratio": 5.528095484953807,
+      "status": "unresolved_source_review",
+      "reason": "Above 4x the same month one year earlier, with an increase of at least 1 Mt."
+    },
+    {
+      "country": "Sweden",
+      "month": "2024-12",
+      "feature": "power",
+      "value_mt": 2.5449207,
+      "previous_year_mt": 0.37496059,
+      "ratio": 6.787168486160106,
+      "status": "unresolved_source_review",
+      "reason": "Above 4x the same month one year earlier, with an increase of at least 1 Mt."
+    },
+    {
+      "country": "Sweden",
+      "month": "2025-01",
+      "feature": "power",
+      "value_mt": 2.6342068,
+      "previous_year_mt": 0.6433572,
+      "ratio": 4.094470070436765,
+      "status": "unresolved_source_review",
+      "reason": "Above 4x the same month one year earlier, with an increase of at least 1 Mt."
+    },
+    {
+      "country": "Sweden",
+      "month": "2025-06",
+      "feature": "power",
+      "value_mt": 12.447274,
+      "previous_year_mt": 2.0016566,
+      "ratio": 6.218486227857466,
+      "status": "unresolved_source_review",
+      "reason": "Above 4x the same month one year earlier, with an increase of at least 1 Mt."
+    },
+    {
+      "country": "Sweden",
+      "month": "2025-07",
+      "feature": "power",
+      "value_mt": 12.402207,
+      "previous_year_mt": 1.8030379,
+      "ratio": 6.878505992580633,
+      "status": "unresolved_source_review",
+      "reason": "Above 4x the same month one year earlier, with an increase of at least 1 Mt."
+    },
+    {
+      "country": "Sweden",
+      "month": "2025-08",
+      "feature": "power",
+      "value_mt": 11.973695,
+      "previous_year_mt": 2.085583,
+      "ratio": 5.741174050613185,
+      "status": "unresolved_source_review",
+      "reason": "Above 4x the same month one year earlier, with an increase of at least 1 Mt."
+    },
+    {
+      "country": "Sweden",
+      "month": "2025-10",
+      "feature": "power",
+      "value_mt": 9.119744,
+      "previous_year_mt": 2.0292905,
+      "ratio": 4.494055434645754,
+      "status": "unresolved_source_review",
+      "reason": "Above 4x the same month one year earlier, with an increase of at least 1 Mt."
+    },
+    {
+      "country": "Sweden",
+      "month": "2026-03",
+      "feature": "power",
+      "value_mt": 16.954379,
+      "previous_year_mt": 3.588857,
+      "ratio": 4.724172347909097,
+      "status": "unresolved_source_review",
+      "reason": "Above 4x the same month one year earlier, with an increase of at least 1 Mt."
+    },
+    {
+      "country": "Sweden",
+      "month": "2026-04",
+      "feature": "power",
+      "value_mt": 30.568966,
+      "previous_year_mt": 4.00891,
+      "ratio": 7.625256241721565,
+      "status": "unresolved_source_review",
+      "reason": "Above 4x the same month one year earlier, with an increase of at least 1 Mt."
+    }
+  ],
+  "limitations": "This rule does not detect every anomaly or validate source authenticity. Structural completeness is separate from scientific plausibility."
+}
